@@ -1,0 +1,42 @@
+{
+  "name": "xuportfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "tailwind:build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "build": "npm run tailwind:build && tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "4.3.3",
+    "@react-three/drei": "9.102.6",
+    "@react-three/fiber": "8.15.19",
+    "framer-motion": "11.0.20",
+    "maath": "0.10.7",
+    "mapbox-gl": "^3.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.22.3",
+    "react-tilt": "1.0.2",
+    "react-vertical-timeline-component": "3.6.0"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^3.1.0",
+    "@types/react": "18.2.66",
+    "@types/react-dom": "18.2.22",
+    "@types/react-vertical-timeline-component": "3.3.6",
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "@vitejs/plugin-react-swc": "3.5.0",
+    "eslint": "8.57.0",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.6",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.2.2",
+    "vite": "5.2.0"
+  }
+}

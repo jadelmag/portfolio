@@ -1,0 +1,72 @@
+.visible {
+  transform: translateX(0px);
+  transition: all 0.5s ease-in-out;
+}
+
+.hide {
+  transform: translateX(-160px);
+  transition: all 0.5s ease-in-out;
+}
+
+.left {
+  transform: rotateZ(0deg);
+  transition: all 0.4s ease;
+}
+
+.right {
+  transform: rotateZ(180deg);
+  transition: all 0.4s ease;
+}
+
+.map-overlay {
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 200px;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.map-overlay-close-icon {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  top: 20px;
+  left: 160px;
+}
+
+.map-overlay .map-overlay-inner {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.map-overlay-inner fieldset {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.map-overlay-inner label {
+  color: #000;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.map-overlay-inner .select-fieldset {
+  display: block;
+}
+
+.map-overlay-inner .select-fieldset label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.map-overlay-inner .select-fieldset select {
+  width: 100%;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
