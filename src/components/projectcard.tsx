@@ -1,9 +1,9 @@
+import github from "@/assets/github.png";
+import { Tag } from "@/constants/projects.constants";
+import { fadeIn } from "@/utils/motion";
 import { motion } from "framer-motion";
 import React from "react";
 import { Tilt } from "react-tilt";
-import { github } from "../assets";
-import { Tag } from "../constants/projects.constants";
-import { fadeIn } from "../utils/motion";
 
 interface ProjectCardProps {
   index: number;

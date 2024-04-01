@@ -1,7 +1,7 @@
+import Overlay from "@/components/mapbox/mapbox-overlay";
+import { MAPBOX_TOKEN } from "@/tokens/mapbox.token";
 import mapboxgl from "mapbox-gl";
 import { LegacyRef, useCallback, useEffect, useState } from "react";
-import { MAPBOX_TOKEN } from "../../tokens/mapbox.token";
-import Overlay from "./mapbox-overlay";
 import "./mapbox.css";
 
 mapboxgl.accessToken = MAPBOX_TOKEN;

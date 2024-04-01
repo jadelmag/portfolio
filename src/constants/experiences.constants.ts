@@ -1,4 +1,8 @@
-import { bigbuy, global, idrica, oesia } from "../assets";
+import bigbuy from "@/assets/company/bigbuy.png";
+import global from "@/assets/company/global.png";
+import idrica from "@/assets/company/idrica.png";
+import oesia from "@/assets/company/oesia.png";
+
 
 export interface Experience {
   title: string;

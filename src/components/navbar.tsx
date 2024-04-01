@@ -1,8 +1,9 @@
+import logo from "@/assets/me/logo.jpg";
+import menu from "@/assets/menu.svg";
+import { Navlink, navLinks } from "@/constants/navlinks.contants";
+import { styles } from "@/styles";
 import { RefObject, useLayoutEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { logo, menu } from "../assets";
-import { Navlink, navLinks } from "../constants/navlinks.contants";
-import { styles } from "../styles";
 
 const DefaultActive = navLinks[0];
 

@@ -1,10 +1,21 @@
-import react from '@vitejs/plugin-react-swc'
-import { defineConfig } from 'vite'
+import react from "@vitejs/plugin-react-swc";
+import path from "path";
+import { defineConfig } from "vite";
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: "./",
   plugins: [react()],
-  build: {
-    chunkSizeWarningLimit: 2500
-  }
-})
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
+  optimizeDeps: {
+    exclude: ["js-big-decimal"],
+  },
+  server: {
+    port: 8000,
+  },
+});
+
+

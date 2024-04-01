@@ -1,9 +1,9 @@
+import ExperienceCard from "@/components/experiencecard";
+import { Experience, experiences } from "@/constants/experiences.constants";
+import { styles } from "@/styles";
 import { RefObject } from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import ExperienceCard from "../components/experiencecard";
-import { Experience, experiences } from "../constants/experiences.constants";
-import { styles } from "../styles";
 
 interface ExperienceProps {
   experienceRef: RefObject<HTMLDivElement>;

@@ -15,7 +15,7 @@ This project is a personal portfolio developed in React using Vite as a fast bui
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/portfolio-react.git
+git clone https://github.com/jadelmag/portfolio
 ```
 
 2. Install dependencies:

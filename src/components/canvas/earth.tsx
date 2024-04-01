@@ -1,7 +1,7 @@
+import Loader from "@/components/loader";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
-import Loader from "../loader";
 
 const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");

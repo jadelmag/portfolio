@@ -1,7 +1,7 @@
+import close from "@/assets/close.png";
+import { DEFAULT_TIME } from "@/components/mapbox/mapbox.constants";
 import { useEffect, useState } from "react";
-import { close } from "../../assets";
 import "./mapbox-overlay.css";
-import { DEFAULT_TIME } from "./mapbox.constants";
 
 interface OverlayProps {
   map: mapboxgl.Map;

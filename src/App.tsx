@@ -1,13 +1,13 @@
+import StarsCanvas from "@/components/canvas/stars";
+import MapBox from "@/components/mapbox/mapbox";
+import Navbar from "@/components/navbar";
+import About from "@/pages/about";
+import Contact from "@/pages/contact";
+import Experience from "@/pages/experience";
+import Home from "@/pages/home";
+import Works from "@/pages/works";
 import { RefObject, useRef } from "react";
 import { BrowserRouter } from "react-router-dom";
-import StarsCanvas from "./components/canvas/stars";
-import MapBox from "./components/mapbox/mapbox";
-import Navbar from "./components/navbar";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Experience from "./pages/experience";
-import Home from "./pages/home";
-import Works from "./pages/works";
 
 const App = () => {
   const homeRef: RefObject<HTMLDivElement> = useRef(null);

@@ -1,4 +1,4 @@
-import { INITIAL_YEAR } from "../constants/workingyears.constants";
+import { INITIAL_YEAR } from "@/constants/workingyears.constants";
 
 export const calculateYearsWorked = (): number => {
   const currentYear = new Date().getFullYear();

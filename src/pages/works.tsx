@@ -1,9 +1,9 @@
+import ProjectCard from "@/components/projectcard";
+import { Project, projects } from "@/constants/projects.constants";
+import { styles } from "@/styles";
+import { fadeIn, textVariant } from "@/utils/motion";
 import { motion } from "framer-motion";
 import { RefObject } from "react";
-import ProjectCard from "../components/projectcard";
-import { Project, projects } from "../constants/projects.constants";
-import { styles } from "../styles";
-import { fadeIn, textVariant } from "../utils/motion";
 
 interface WorksProps {
   worksRef: RefObject<HTMLDivElement>;

@@ -1,17 +1,18 @@
-import {
-  angular,
-  css,
-  git,
-  html,
-  javascript,
-  mapbox,
-  mongodb,
-  nodejs,
-  openlayers,
-  reactjs,
-  redux,
-  typescript
-} from "../assets";
+import angular from "@/assets/tech/angular.png";
+import css from "@/assets/tech/css.png";
+import git from "@/assets/tech/git.png";
+import html from "@/assets/tech/html.png";
+import javascript from "@/assets/tech/javascript.png";
+import mapbox from "@/assets/tech/mapbox.png";
+import mongodb from "@/assets/tech/mongodb.png";
+import nodejs from "@/assets/tech/nodejs.png";
+import openlayers from "@/assets/tech/openlayers.png";
+import reactjs from "@/assets/tech/reactjs.png";
+import redux from "@/assets/tech/redux.png";
+import typescript from "@/assets/tech/typescript.png";
+
+
+
 
 export interface Technology {
   name: string;

@@ -1,7 +1,7 @@
+import jadelmag from "@/assets/me/me2.png";
+import { about } from "@/constants/description.constants";
+import { styles } from "@/styles";
 import { RefObject } from "react";
-import { jadelmag } from "../assets";
-import { about } from "../constants/description.constants";
-import { styles } from "../styles";
 
 interface AboutProps {
   aboutRef: RefObject<HTMLDivElement>;

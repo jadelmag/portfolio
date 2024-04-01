@@ -1,8 +1,8 @@
+import Mouse from "@/components/mouse";
+import { Technology, technologies } from "@/constants/technologies.constants";
+import { styles } from "@/styles";
+import { calculateYearsWorked } from "@/utils/functions";
 import { RefObject } from "react";
-import Mouse from "../components/mouse";
-import { Technology, technologies } from "../constants/technologies.constants";
-import { styles } from "../styles";
-import { calculateYearsWorked } from "../utils/functions";
 
 interface HomeProps {
   homeRef: RefObject<HTMLDivElement>;

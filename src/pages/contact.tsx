@@ -1,9 +1,9 @@
+import EarthCanvas from "@/components/canvas/earth";
+import { styles } from "@/styles";
+import { slideIn } from "@/utils/motion";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { RefObject, useRef, useState } from "react";
-import EarthCanvas from "../components/canvas/earth";
-import { styles } from "../styles";
-import { slideIn } from "../utils/motion";
 
 interface ContactProps {
   contactRef: RefObject<HTMLDivElement>;

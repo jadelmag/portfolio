@@ -1,4 +1,11 @@
-import { avantio, chatsoketio, dashboard, ecommerce, mapboxapp, netflix, podcast } from "../assets";
+import avantio from "@/assets/projects/avantio.png";
+import chatsoketio from "@/assets/projects/chat-socket.io.png";
+import dashboard from "@/assets/projects/dashboard.png";
+import ecommerce from "@/assets/projects/ecommerce.png";
+import mapboxapp from "@/assets/projects/mapboxapp.png";
+import netflix from "@/assets/projects/netflix.png";
+import podcast from "@/assets/projects/podcast.png";
+
 
 export interface Project {
   name: string;

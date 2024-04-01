@@ -8,7 +8,7 @@ import {
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 
-import Loader from "../loader";
+import Loader from "@/components/loader";
 
 interface BallProps {
   imgUrl: string;
