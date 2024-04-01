@@ -9,6 +9,10 @@
   color-scheme: dark;
 }
 
+.bg-pattern {
+  background-image: url('/src/assets/bg.png');
+} 
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

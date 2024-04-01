@@ -1001,6 +1001,10 @@ video {
   background-repeat: no-repeat;
 }
 
+.bg-pattern {
+  background-image: url('/src/assets/bg.png');
+} 
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;

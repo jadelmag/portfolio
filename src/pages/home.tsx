@@ -20,10 +20,10 @@ const Home: React.FC<HomeProps> = ({ homeRef }) => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.homeHeadText} text-white`}>
             Hola, soy <span className="text-[#915EFF]">Javier</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.homeSubText} mt-2 text-white-100`}>
             {`+${calculateYearsWorked()}`} Años de experiencia como
             desarrollador frontend.
             <br className="sm:block hidden" />
